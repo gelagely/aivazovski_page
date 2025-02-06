@@ -3,9 +3,6 @@
     padding: 0 30px 70px;
 }
 
-.container {
-}
-
 .home-title {
     font-size: 45px;
     font-weight: 700;
@@ -17,7 +14,7 @@
     font-size: 18px;
     font-weight: 500;
     color: var(--color-main-black);
-    margin: 0 0 0 35px 0;
+    margin: 0 0 35px;
 }
 
 .home-img {
@@ -27,17 +24,19 @@
 }
 
 @media (max-wigth: 480px) {
-    .home{
+    .home {
         text-align: left;
     }
-    .home-title{
+
+    .home-title {
         max-width: 240px;
         font-size: 32px;
         margin: 65px 0 25px 0;
     }
-        .home-description {
-            font-size: 14px;
-            margin: 0 0 35px 0;
 
-        }
+    .home-description {
+        font-size: 14px;
+        margin: 0 0 35px 0;
+
+    }
 }
