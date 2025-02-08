@@ -24,7 +24,7 @@
     margin: 30px 0 0;
 }
 
-@media (max-wigth: 480px) {
+@media (max-wigth: 310px) {
     .history {
         padding: 50px 30px 70px;
     }
