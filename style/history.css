@@ -2,7 +2,7 @@
     background-color: var(--bg-main);
     padding: 65px 30px 70px;
     text-align: center;
-    color: var(--bg-main-black);
+    color: var(--color-main-black);
 }
 
 .history-title {
@@ -24,7 +24,7 @@
     margin: 30px 0 0;
 }
 
-@media (max-wigth: 310px) {
+@media (max-width: 480px) {
     .history {
         padding: 50px 30px 70px;
     }
